@@ -3,6 +3,9 @@ name: Publish Docker image
 on:
     release:
         types: [published]
+env:
+    REGISTRY: docker.io
+    IMAGE_NAME: mflaceliere/webapp
 
 jobs:
     push_to_registry:
