@@ -49,7 +49,7 @@ Cette commande va créer les ressources suivantes :
     -   1 service de type NodePort pour accéder à l'API [📄](https://github.com/MatthieuFlaceliere/8INF876_TP-2/blob/main/k8s/04-frontend-service.yaml)
 -   MySQL:
     -   1 instance de MySQL [📄](https://github.com/MatthieuFlaceliere/8INF876_TP-2/blob/main/k8s/01-mysql-deployment.yaml)
-    -   1 service de type ClusterIP pour accéder à MySQL[📄](https://github.com/MatthieuFlaceliere/8INF876_TP-2/blob/main/k8s/032mysql-service.yaml)
+    -   1 service de type ClusterIP pour accéder à MySQL[📄](https://github.com/MatthieuFlaceliere/8INF876_TP-2/blob/main/k8s/03-mysql-service.yaml)
     -   1 persistent volume claim pour stocker les données de MySQL [📄](https://github.com/MatthieuFlaceliere/8INF876_TP-2/blob/main/k8s/00-mysql-pvc.yaml)
 
 Pour accéder à l'API, il suffit de récupérer l'adresse IP de minikube et le port du service de l'API :
