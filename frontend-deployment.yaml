@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: frontend
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: frontend
+    template:
+        metadata:
+            labels:
+                app: frontend
+        spec:
+            containers:
+                - name: frontend
+                  image: mflaceliere/webapp
+                  ports:
+                      - containerPort: 80
+                  env:
+                      - name: PORT
+                        value: "80"
+                      - name: DB_HOST
+                        value: "mysql"
+                      - name: DB_USER
+                        value: "root"
+                      - name: DB_PASS
+                        value: "123456"
+                      - name: DB_NAME
+                        value: "mydb"
