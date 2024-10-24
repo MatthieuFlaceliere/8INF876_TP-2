@@ -50,7 +50,7 @@ L'API CRUD est une API REST qui permet de gérer des messages. Son code source e
 -   PUT `/:id` : Met à jour un message par son id
 -   DELETE `/:id` : Supprime un message par son id
 
-### 📦 Exemple de message
+### 📦 Exemple body pour créer un message
 
 ```json
 {
