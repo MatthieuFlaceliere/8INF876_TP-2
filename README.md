@@ -208,3 +208,9 @@ Lors d'une nouvelle release, une action GitHub se déclenche et effectue les act
 
 - Builder l'image Docker de l'API
 - Push l'image Docker sur le Docker Hub 👉[ Image ](https://hub.docker.com/repository/docker/mflaceliere/webapp)👈
+
+
+## Eleves
+
+- Matthieu Flacelière (FLAM30090200)
+- Gaspard Audoux (AUDG19030300)
